@@ -1,0 +1,39 @@
+module.exports = {
+  "extends": "@robingenz/tslint-config",
+  "rules": {
+    "component-class-suffix": [
+      true,
+      "Page",
+      "Component"
+    ],
+    "contextual-lifecycle": true,
+    "directive-class-suffix": true,
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+    "no-conflicting-lifecycle": true,
+    "no-host-metadata-property": true,
+    "no-input-rename": true,
+    "no-inputs-metadata-property": true,
+    "no-output-native": true,
+    "no-output-on-prefix": true,
+    "no-output-rename": true,
+    "no-outputs-metadata-property": true,
+    "template-banana-in-box": true,
+    "template-no-negated-async": true,
+    "use-lifecycle-interface": true,
+    "use-pipe-transform-interface": true
+  },
+  "rulesDirectory": [
+    "codelyzer"
+  ]
+};

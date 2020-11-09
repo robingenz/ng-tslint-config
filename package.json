@@ -1,0 +1,27 @@
+{
+  "name": "@robingenz/ng-tslint-config",
+  "version": "0.0.1",
+  "author": "Robin Genz <mail@robingenz.dev>",
+  "description": "Shared TSLint config for Angular projects.",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version --skip.changelog"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robingenz/ng-tslint-config.git"
+  },
+  "keywords": [],
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/robingenz/ng-tslint-config/issues"
+  },
+  "homepage": "https://github.com/robingenz/ng-tslint-config",
+  "peerDependencies": {
+    "codelyzer": "^6.0.0",
+    "@robingenz/tslint-config": "~0.1.0"
+  },
+  "devDependencies": {
+    "standard-version": "^9.0.0"
+  }
+}
