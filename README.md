@@ -1,6 +1,6 @@
 # @robingenz/ng-tslint-config
 
-[![npm](https://www.npmjs.com/package/@robingenz/ng-tslint-config)](https://img.shields.io/github/package-json/v/robingenz/ng-tslint-config)
+[![npm](https://img.shields.io/github/package-json/v/robingenz/ng-tslint-config)](https://www.npmjs.com/package/@robingenz/ng-tslint-config)
 
 ## Installation
 
