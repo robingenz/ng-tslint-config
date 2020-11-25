@@ -1,11 +1,7 @@
 module.exports = {
   "extends": "@robingenz/tslint-config",
   "rules": {
-    "component-class-suffix": [
-      true,
-      "Page",
-      "Component"
-    ],
+    "component-class-suffix": true,
     "contextual-lifecycle": true,
     "directive-class-suffix": true,
     "directive-selector": [
